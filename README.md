@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 Offline Password Manager
 
-## Getting Started
+A **secure, privacy-first** password manager built with [Next.js](https://nextjs.org). Store and organize your credentials 🔑 completely offline  no servers, no cloud ☁️, just **you and your data**.
 
-First, run the development server:
+Organize logins by categories:  
+- 💼 Work  
+- 🏠 Personal  
+- 🌐 Social  
+- 💳 Finance  
+- 📁 Other  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Getting Started
+
+### 1. 📦 Install dependencies
+```
+npm install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. 🏗️ Build the app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. 🔄 Run the development server
 
-## Learn More
+```
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open your browser at http://localhost:3000 to see the app in action.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🔒 100% Offline - no cloud sync, no external API  
+- 🗂️ Categorize passwords (Work, Personal, Finance, etc.)  
+- ✏️ Add, edit, and delete entries  
+- 🔎 Easy UI for managing your data  
+- 📁 JSON-based local storage  
+- 🧩 Built with Next.js App Router  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Tech Stack
+
+- ⚙️ Next.js  
+- 💅 Tailwind CSS  
+- 🛠️ TypeScript  
+- 📦 Zustand (state management)  
+- 🗃️ LocalStorage API  
+
+---
+
+## 🧪 Development Tips
+
+- Edit main logic at: `src/app/page.tsx`  
+- Components are inside: `src/components/`  
+- All hooks can be found in: `src/hooks/`  
+- Password types: `src/types/`  
+
+---
+
+## 🌍 Deploying on Vercel
+
+Want to deploy? Click below to launch on Vercel 🚀
+
+---
+
+## 📚 Learn More
+
+- 🔗 [Next.js Documentation](https://nextjs.org/docs)  
+- 📘 [Learn Next.js](https://nextjs.org/learn)  
+- 🧪 [Next.js GitHub Repo](https://github.com/vercel/next.js)  
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by Shubham Mishra
+
+---
+
+## 🛡️ License
+
+This project is licensed for personal use and educational purposes.
+

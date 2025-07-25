@@ -1,4 +1,5 @@
 # 🔐 Offline Password Manager
+![Offline Password Manager UI](password-manager.png)
 
 A **secure, privacy-first** password manager built with [Next.js](https://nextjs.org). Store and organize your credentials 🔑 completely offline  no servers, no cloud ☁️, just **you and your data**.
 
